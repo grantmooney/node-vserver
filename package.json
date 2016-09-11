@@ -1,0 +1,21 @@
+{
+  "name": "node-vserver",
+  "version": "1.0.0",
+  "description": "Uses vhost to serve multiple applications at once",
+  "private": true,
+  "scripts": {
+    "start": "node ./server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "debug": "^2.1.1",
+    "express": "^4.2.0",
+    "file-system": "^2.2.1",
+    "method-override": "~1.0.0",
+    "path": "^0.12.7",
+    "static-favicon": "^1.0.0",
+    "vhost": "^3.0.2"
+  },
+  "author": "Grant Mooney",
+  "license": "ISC"
+}
